@@ -22,7 +22,7 @@ Using PIP via PyPI::
 
 Using PIP via Github::
 
-    pip install git+https://github.com/josegonzalez/python-github-backup.git#egg=github-backup
+    pip install git+https://github.com/u9g/python-github-backup.git#egg=github-backup
 
 Usage
 =====
