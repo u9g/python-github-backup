@@ -832,7 +832,7 @@ def backup_repositories(args, output_directory, repositories):
         if args.include_labels or args.include_everything:
             backup_labels(args, repo_cwd, repository, repos_template)
 
-        if args.include_hooks or args.include_everything:
+        if False: #args.include_hooks or args.include_everything:
             backup_hooks(args, repo_cwd, repository, repos_template)
 
         if args.include_releases or args.include_everything:
